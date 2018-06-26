@@ -1,4 +1,5 @@
 # ASVTrafficSim
+A traffic simulator for unmanned surface vessels.
 
 ## Installation
 
@@ -57,3 +58,4 @@ boatdctl behaviour-start example
 
 run collision detector
 python recvBoatData.py
+=======
