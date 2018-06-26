@@ -1,0 +1,12 @@
+[submodule "boatd-opencpn"]
+	path = boatd-opencpn
+	url = git@github.com:boatd/boatd-opencpn.git
+[submodule "sailsd"]
+	path = sailsd
+	url = git@github.com:sails-simulator/sailsd.git
+[submodule "sails-ui"]
+	path = sails-ui
+	url = git@github.com:sails-simulator/sails-ui.git
+[submodule "dewi-behaviour"]
+	path = simulator-behaviour
+	url = git@github.com:abersailbot/dewi-behaviour.git
