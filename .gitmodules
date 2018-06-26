@@ -10,3 +10,6 @@
 [submodule "dewi-behaviour"]
 	path = simulator-behaviour
 	url = git@github.com:abersailbot/dewi-behaviour.git
+[submodule "sails-boatd-driver"]
+	path = sails-boatd-driver
+	url = git@github.com:sails-simulator/sails-boatd-driver.git

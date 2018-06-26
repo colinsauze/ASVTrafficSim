@@ -1,0 +1,20 @@
+boatd:
+  port: 2223
+  interface: 127.0.0.1
+
+plugin_directory: null
+
+plugins:
+  - logger:
+        enabled: false
+        period: 10
+        filename: logs/gps_trace
+
+driver:
+   file: sails-boatd-driver/driver.py
+
+behaviours:
+    - example:
+        file: simulator-behaviour/looped-waypoint-behaviour
+
+waypoint_file: waypoints
