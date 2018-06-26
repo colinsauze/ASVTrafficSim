@@ -12,4 +12,4 @@
 	url = https://github.com/abersailbot/simulator-behaviour.git
 [submodule "sails-boatd-driver"]
 	path = sails-boatd-driver
-	url = https://github.com/sails-simulator/sails-boatd-driver.git
+	url = https://github.com/colinsauze/sails-boatd-driver.git
