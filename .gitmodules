@@ -7,9 +7,9 @@
 [submodule "sails-ui"]
 	path = sails-ui
 	url = https://github.com/sails-simulator/sails-ui.git
-[submodule "dewi-behaviour"]
+[submodule "simulator-behaviour"]
 	path = simulator-behaviour
-	url = https://github.com/abersailbot/dewi-behaviour.git
+	url = https://github.com/abersailbot/simulator-behaviour.git
 [submodule "sails-boatd-driver"]
 	path = sails-boatd-driver
 	url = https://github.com/sails-simulator/sails-boatd-driver.git
