@@ -13,3 +13,6 @@
 [submodule "sails-boatd-driver"]
 	path = sails-boatd-driver
 	url = git@github.com:sails-simulator/sails-boatd-driver.git
+[submodule "oceansofdata"]
+	path = oceansofdata
+	url = git@github.com:greenpeace/oceansofdata.git
