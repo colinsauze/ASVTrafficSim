@@ -1,15 +1,15 @@
 [submodule "boatd-opencpn"]
 	path = boatd-opencpn
-	url = git@github.com:boatd/boatd-opencpn.git
+	url = https://github.com/boatd/boatd-opencpn.git
 [submodule "sailsd"]
 	path = sailsd
-	url = git@github.com:sails-simulator/sailsd.git
+	url = https://github.com/sails-simulator/sailsd.git
 [submodule "sails-ui"]
 	path = sails-ui
-	url = git@github.com:sails-simulator/sails-ui.git
+	url = https://github.com/sails-simulator/sails-ui.git
 [submodule "dewi-behaviour"]
 	path = simulator-behaviour
-	url = git@github.com:abersailbot/dewi-behaviour.git
+	url = https://github.com/abersailbot/dewi-behaviour.git
 [submodule "sails-boatd-driver"]
 	path = sails-boatd-driver
-	url = git@github.com:sails-simulator/sails-boatd-driver.git
+	url = https://github.com/sails-simulator/sails-boatd-driver.git
