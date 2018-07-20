@@ -12,7 +12,7 @@ sock = socket.socket(socket.AF_INET, # Internet
 sock.bind((UDP_IP, UDP_PORT))
 
 print("Loading data")
-aisdata = readData.read_data("data/feed_short.ais.txt")
+aisdata = readData.read_data("oceansofdata/ais-exploratorium-edu/feed.ais.txt")
 print("Data Loaded")
 
 start_time = time.time()

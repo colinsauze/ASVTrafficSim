@@ -4,14 +4,18 @@ RUN apt-get update && \
 	apt-get -y install software-properties-common && \
 	apt-add-repository ppa:opencpn/opencpn && \
     apt-get update && \
-    apt-get install -y opencpn libjansson-dev python-gi-cairo build-essential python-pip git && \
+    apt-get install -y opencpn libjansson-dev python-gi-cairo build-essential python-pip git pkg-config build-essential libjansson-dev && \
     pip install boatd python-boatdclient python-sailsd pynmea2 libais && \
     git clone --recursive https://github.com/colinsauze/ASVTrafficSim.git && \
-    cd sailsd && \
+    cd /ASVTrafficSim/sailsd && \
     make && \
     make install && \
-    cd .. && \
-    
-RUN 
+    cd ..
+
 EXPOSE 2222 3333
-CMD cd ASVTrafficSim & 
+
+CMD cd /ASVTrafficSim/ && ./run.sh
+
+
+
+
