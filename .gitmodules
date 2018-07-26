@@ -1,6 +1,6 @@
 [submodule "boatd-opencpn"]
 	path = boatd-opencpn
-	url = https://github.com/boatd/boatd-opencpn.git
+	url = https://github.com/colinsauze/boatd-opencpn.git
 [submodule "sailsd"]
 	path = sailsd
 	url = https://github.com/sails-simulator/sailsd.git
