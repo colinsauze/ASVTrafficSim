@@ -10,7 +10,9 @@ RUN apt-get update && \
     cd /ASVTrafficSim/sailsd && \
     make && \
     make install && \
-    cd ..
+    cd .. && \
+    cd oceansofdata/ais-exploratorium-edu/ && \
+    bunzip2 feed.ais.txt.bz2
 
 EXPOSE 2222 3333
 

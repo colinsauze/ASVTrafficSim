@@ -21,6 +21,9 @@ From:ubuntu:18.04
     make
     make install
     cd ..
+    cd oceansofdata/ais-exploratorium-edu/
+    bunzip2 feed.ais.txt.bz2
+
 
 
 %runscript
