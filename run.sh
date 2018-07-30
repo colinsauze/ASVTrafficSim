@@ -4,7 +4,7 @@ sleep 1
 boatd boatd.yml &
 sleep 5
 boatdctl behaviour-start example
-boatd-opencpn/boatd-opencpn 127.0.0.1:2223 10110 &
+boatd-opencpn/boatd-opencpn 127.0.0.1:2223 10111 &
 python recvBoatData.py
 killall boatd
 killall sailsd
