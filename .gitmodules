@@ -4,9 +4,6 @@
 [submodule "sailsd"]
 	path = sailsd
 	url = https://github.com/sails-simulator/sailsd.git
-[submodule "sails-ui"]
-	path = sails-ui
-	url = https://github.com/sails-simulator/sails-ui.git
 [submodule "simulator-behaviour"]
 	path = simulator-behaviour
 	url = https://github.com/abersailbot/simulator-behaviour.git
