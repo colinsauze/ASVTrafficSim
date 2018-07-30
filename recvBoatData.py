@@ -19,7 +19,7 @@ start_time = time.time()
 
 #our datasources are old and don't change time
 sim_start_time = 1417005700
-sim_end_time = sim_start_time + 300
+sim_end_time = sim_start_time + 60
 
 sim_real_diff = start_time - sim_start_time
 
