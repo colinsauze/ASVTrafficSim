@@ -14,7 +14,7 @@ From:ubuntu:18.04
     apt-get update
     apt-get -y install software-properties-common
     apt-get update
-    apt-get install -y libjansson-dev python-gi-cairo build-essential python-pip git pkg-config build-essential libjansson-dev netcat
+    apt-get install -y libjansson-dev python-gi-cairo build-essential python-pip git pkg-config build-essential libjansson-dev netcat psmisc
     pip install boatd python-boatdclient python-sailsd pynmea2 libais
     git clone --recursive https://github.com/colinsauze/ASVTrafficSim.git
     cd /ASVTrafficSim/sailsd
