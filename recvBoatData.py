@@ -31,7 +31,7 @@ position_log = dict()
 position_log[0] = list()
 
 #ships with bad position data
-blacklist = [366999711,366985330] 
+blacklist = [366999711,366985330,367436230] 
 
 while True:
     data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
