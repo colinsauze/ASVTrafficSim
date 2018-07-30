@@ -13,6 +13,3 @@
 [submodule "oceansofdata"]
 	path = oceansofdata
 	url = https://github.com/greenpeace/oceansofdata.git
-[submodule "sails-ui"]
-	path = sails-ui
-	url = https://github.com/sails-simulator/sails-ui.git
