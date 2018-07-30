@@ -19,8 +19,8 @@ start_time = time.time()
 
 #our datasources are old and don't change time
 sim_start_time = 1417005700
-#sim_end_time = 1417007806
-sim_end_time = 1417012900
+sim_end_time = sim_start_time + 300
+
 sim_real_diff = start_time - sim_start_time
 
 #used to store a list of collisions and near misses 
@@ -118,7 +118,7 @@ print("Near Misses:")
 print(near_misses)
 
 
-f = open("boatlog.gpx","w")
+f = open("logs/boatlog.gpx","w")
 
 #<?xml version='1.0' encoding='UTF-8' standalone='yes' ?><gpx version="1.1" creator="GPS Essentials - http://www.gpsessentials.com" xmlns="http://www.topografix.com/GPX/1/1"><trk><name>Track-130301-031021</name><desc>null</desc><number>11</number><trkseg><trkpt lat="52.399887" lon="-3.8696077"><ele>385.2</ele><speed>0.0</speed><time>2013-03-01T15:10:27Z</time></trkpt>
 #<trkpt lat="52.399887" lon="-3.86959"><ele>384.6</ele><speed>0.0</speed><time>2013-03-01T15:11:06Z</time></trkpt>
