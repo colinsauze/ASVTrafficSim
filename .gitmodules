@@ -13,3 +13,6 @@
 [submodule "oceansofdata"]
 	path = oceansofdata
 	url = https://github.com/greenpeace/oceansofdata.git
+[submodule "boatd"]
+	path = boatd
+	url = https://github.com/colinsauze/boatd.git
