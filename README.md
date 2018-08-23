@@ -58,4 +58,18 @@ boatdctl behaviour-start example
 
 run collision detector
 python recvBoatData.py
+
+#### Running with Singularity:
+
+Build the singularity container with:
+
+    sudo singularity build ASVTrafficSim.simg Singularity
+
+Run it with:
+
+    singularity run -B logs:/ASVTrafficSim/logs ASVTrafficSim.simg 
+
+This will bind the logs (output) directory in the container to the local logs directory.
+
+
 =======
